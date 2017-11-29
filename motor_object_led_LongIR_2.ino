@@ -35,6 +35,7 @@ void setup() {
   pinMode(LED2, OUTPUT);
 }
 
+
 uint16_t get_gp2d12 (uint16_t value)
 {
   if (value < 10) value = 10;
